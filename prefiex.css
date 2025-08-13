@@ -1,0 +1,146 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(./Roboto.ttf);
+}
+
+.roboto {
+  font-family: 'Roboto';
+}
+
+.anchor-list {
+text-decoration: none;
+}
+
+li {
+list-style: none;
+}
+
+.contain {
+
+display: -webkit-box;
+
+display: -ms-flexbox;
+
+display: flex;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+}
+
+.wrapper {
+background-color: rgb(247, 246, 245);
+height: auto;
+width: auto;
+border-radius: 20px,
+}
+
+.flex-navbar {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+width: 1440px;
+height: 25px;
+margin: 38px auto;
+}
+
+.ul-navbar {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+gap: 36px;
+}
+.navbar_logo {
+height: 29px;
+margin-right: 800px;
+}
+
+.list-navbar {
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+color: #003B66;
+}
+
+.flex-item {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+margin: auto;
+width: 1440px;
+margin-top: 158px; 
+}
+
+.title-intro {
+width: 610px;
+height: 315px;
+left: 113px;
+top: 225px;
+
+
+font-weight: 700;
+font-size: 90px;
+line-height: 105px;
+
+color: #003B66;
+}
+
+.text-intro {
+width: 407px;
+height: 87px;
+left: 118px;
+left: 118px;
+top: 568px;
+margin-top: 28px;
+
+
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #005999;
+}
+
+.intro-btn {
+width: 183px;
+height: 56px;
+left: 120px;
+top: 744px;
+color:white;
+font-size: 20px;
+margin-top: 89px;
+margin-right: 24px;
+background: -o-linear-gradient(185.12deg, #004A80 0.72%, #002C4D 99.28%);
+background: linear-gradient(264.88deg, #004A80 0.72%, #002C4D 99.28%);
+border-radius: 4px;
+}
+
+#btn2 {
+color: #005999;
+background: white;
+border-style: ridge;
+}
+
+.assessme_img {
+width: 1532px;
+height: 290px;
+font-weight: 700px;
+font-style: bold;
+font-size: 300px;
+margin: auto;
+letter-spacing: 30px;
+color: rgb(250, 250, 250);
+}
